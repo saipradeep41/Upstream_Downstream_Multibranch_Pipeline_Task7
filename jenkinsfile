@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                echo 'java -version'
+                echo 'added webhooks'
                 
             }
         }
