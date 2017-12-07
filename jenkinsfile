@@ -23,7 +23,7 @@ properties([
             steps {
                 echo 'ls'
                 echo 'pwd'
-                build branch: 'branch1'
+                build job: 'branch1'
             }
         }
     }
