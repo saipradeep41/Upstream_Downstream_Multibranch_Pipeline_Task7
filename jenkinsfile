@@ -2,7 +2,7 @@
 properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
-    projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
+    projectUrlStr: 'https://github.com/saipradeep41/Upstream_Downstream_Multibranch_Pipeline_Task7.git'],
     pipelineTriggers([githubPush()])])
     pipeline {
     agent any 
