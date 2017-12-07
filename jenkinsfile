@@ -15,7 +15,7 @@ properties([
         }
         stage('Test'){
             steps {
-                echo 'added webhooks url tracking'
+                echo 'added webhooks url trackg'
                 
             }
         }
