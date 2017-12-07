@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh 'pwd' 
+                echo 'pwd' 
             }
         }
         stage('Test'){
             steps {
-                sh 'java -version'
+                echo 'java -version'
                 
             }
         }
         stage('Deploy') {
             steps {
-                sh 'ls'
-                sh 'pwd'
+                echo 'ls'
+                echo 'pwd'
             }
         }
     }
