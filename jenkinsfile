@@ -23,6 +23,7 @@ properties([
             steps {
                 echo 'ls'
                 echo 'pwd'
+                build job: 'Downstream_Freestyle_project_task7'
             }
         }
     }
